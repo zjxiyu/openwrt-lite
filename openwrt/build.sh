@@ -25,7 +25,8 @@ endgroup() {
 ###############################
 
 # openwrt repo
-OPENWRT_REPO=pmkol/openwrt-lite
+- OPENWRT_REPO=pmkol/openwrt-lite
++ OPENWRT_REPO=zjwxy/openwrt-lite
 
 # github proxy
 [ "$CN_PROXY" = "y" ] && github_proxy="ghp.ci/https://" || github_proxy=""
